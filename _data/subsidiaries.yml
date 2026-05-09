@@ -1,0 +1,64 @@
+# Canonical subsidiary registry for LulzCorp.
+# Edit this file to update subsidiary structure across the entire site.
+# Referenced by: index.md, charter.md, subsidiaries/index.md, _posts/*.
+
+- key: fishwrap-media
+  name: Fishwrap Media
+  card_label_html: "FISHWRAP<br>MEDIA"
+  tagline: "The algorithm you can read. The feed that ends."
+  url: /subsidiaries/fishwrap/
+  headcount: "1 (Glenn)"
+  headcount_short: "1"
+  domain_count: 9
+  status: Operational
+  short_summary: "A Glass-Box news engine and its publication portfolio."
+  domain_focus: "News engineering and publication"
+  card_items:
+    - "Fishwrap (engine)"
+    - "The Daily Clamour"
+    - "+ four reserved cadences"
+
+- key: tetzel-institute
+  name: Tetzel Institute
+  card_label_html: "TETZEL<br>INSTITUTE"
+  tagline: "Moral Accountability as a Service."
+  url: /subsidiaries/tetzel/
+  headcount: "0 (autonomous)"
+  headcount_short: "0"
+  domain_count: 2
+  status: Operational
+  short_summary: "A satirical critique of AI hallucination markets that nonetheless makes a serious argument."
+  domain_focus: "Moral accountability for stochastic systems"
+  card_items:
+    - "tetzel.io · Confessional API"
+    - "simony.io · Limbus Dashboard"
+
+- key: the-workshop
+  name: The Workshop
+  card_label_html: "THE<br>WORKSHOP"
+  tagline: "Small useful tools, AI-built under Founder direction."
+  url: /subsidiaries/workshop/
+  headcount: "0 (Founder-direct)"
+  headcount_short: "0"
+  domain_count: 0
+  status: Operational
+  short_summary: "CLI tools the Founder uses every day. No public domain; distributed via GitHub."
+  domain_focus: "Personal-scale tools"
+  card_items:
+    - "Lazy · CLI task manager"
+    - "Playoffs · NHL/NBA dashboard"
+
+- key: family-office
+  name: Family Office
+  card_label_html: "FAMILY<br>OFFICE"
+  tagline: "Personal infrastructure for the sole shareholder."
+  url: /subsidiaries/family-office/
+  headcount: "0 (Founder-direct, Burney advisory)"
+  headcount_short: "0"
+  domain_count: 4
+  status: Operational
+  short_summary: "Personal-scale property and aesthetic compliance."
+  domain_focus: "Personal infrastructure"
+  card_items:
+    - "spevack.org · Founder's site"
+    - "Stylus · UserCSS themes"

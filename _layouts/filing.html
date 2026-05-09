@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="filing">
+  <header class="filing-header">
+    <p class="filing-eyebrow">CORPORATE FILING</p>
+    <h1 class="filing-title">{{ page.title }}</h1>
+    <p class="filing-meta">
+      Filed <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+      {% if page.filing_number %} · No. {{ page.filing_number }}{% endif %}
+      {% if page.filed_by %} · {{ page.filed_by }}{% endif %}
+    </p>
+  </header>
+
+  <div class="filing-body">
+    {{ content }}
+  </div>
+
+  <footer class="filing-footer">
+    <p class="filing-signoff">
+      {% if page.reviewed_by %}Reviewed: {{ page.reviewed_by }}.{% endif %}
+      {% if page.approved_by %} Approved: {{ page.approved_by }}.{% endif %}
+      {% if page.witnessed_by %} Witnessed: {{ page.witnessed_by }}.{% endif %}
+    </p>
+    <p class="filing-back"><a href="{{ '/filings/' | relative_url }}">← All Filings</a></p>
+  </footer>
+</article>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {%- assign page_title = page.title | default: site.title -%}
+    {%- assign page_description = page.description | default: site.description -%}
+    {%- assign canonical = page.url | absolute_url -%}
+    {%- assign cb = site.time | date: '%s' -%}
+
+    <title>{{ page_title }} · LulzCorp</title>
+    <meta name="description" content="{{ page_description }}">
+    <meta name="author" content="LulzCorp">
+    <link rel="canonical" href="{{ canonical }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LulzCorp">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="theme-color" content="#fdfbf7">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/assets/css/lulzcorp.css' | relative_url }}?v={{ cb }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <a href="{{ '/' | relative_url }}" class="wordmark">LULZCORP</a>
+        <p class="masthead-tagline">Considered harmful.</p>
+        <p class="masthead-meta">CA LLC (Filing Pending). Established {{ site.founding_date }}.</p>
+      </div>
+    </header>
+
+    <main class="document">
+      {{ content }}
+    </main>
+
+    <footer class="colophon">
+      <nav class="colophon-nav">
+        <a href="{{ '/' | relative_url }}">The Portfolio</a> ·
+        <a href="{{ '/charter/' | relative_url }}">Charter</a> ·
+        <a href="{{ '/personnel/' | relative_url }}">Personnel</a> ·
+        <a href="{{ '/subsidiaries/' | relative_url }}">Subsidiaries</a> ·
+        <a href="{{ '/filings/' | relative_url }}">Filings</a> ·
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+      <p class="colophon-line">© {{ site.founding_year }}–2026 LulzCorp LLC (Filing Pending).</p>
+      <p class="colophon-line colophon-thesis">The work is for real. The wrapper is for the lulz.</p>
+      <p class="colophon-link">The man behind the lulz: <a href="https://spevack.org">spevack.org</a>.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,530 @@
+/* LulzCorp — Corporate Filing aesthetic.
+ * Cream paper, ink, slate, oxblood. Special Elite for headers/wordmark.
+ * Sister site to spevack.org; same fonts, denser document feel. */
+
+:root {
+    --bg: #fdfbf7;
+    --ink: #2f2f2f;
+    --muted: #7f8c8d;
+    --slate: #2c3e50;
+    --oxblood: #7a1f1f;
+    --rule: #c9c2b3;
+    --rule-soft: #e6dfd0;
+
+    --font-head: 'Special Elite', cursive;
+    --font-body: 'Georgia', serif;
+    --font-mono: 'Courier Prime', monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+/* ─── Masthead ─── */
+
+.masthead {
+    border-bottom: 4px double var(--ink);
+    padding: 30px 20px 22px 20px;
+    text-align: center;
+    background: var(--bg);
+}
+.masthead-inner {
+    max-width: 860px;
+    margin: 0 auto;
+}
+.wordmark {
+    font-family: var(--font-head);
+    font-size: 3.6em;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 4px;
+    display: inline-block;
+    line-height: 1;
+}
+.wordmark:hover { color: var(--oxblood); }
+.masthead-tagline {
+    font-family: var(--font-mono);
+    font-style: italic;
+    color: var(--muted);
+    font-size: 1em;
+    margin: 12px 0 4px 0;
+    letter-spacing: 0.5px;
+}
+.masthead-meta {
+    font-family: var(--font-mono);
+    color: var(--muted);
+    font-size: 0.85em;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* ─── Main document container ─── */
+
+.document {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px 60px 24px;
+}
+
+/* ─── Typography ─── */
+
+h1, h2, h3, h4 {
+    font-family: var(--font-head);
+    font-weight: 400;
+    color: var(--ink);
+    line-height: 1.2;
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+}
+h1 { font-size: 2.2em; letter-spacing: 1px; }
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 6px;
+    margin-top: 2.2em;
+}
+h3 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: var(--slate);
+}
+h4 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    font-family: var(--font-mono);
+}
+
+p { margin-bottom: 1em; }
+
+a {
+    color: var(--slate);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+}
+a:hover {
+    color: var(--oxblood);
+    text-decoration-style: solid;
+}
+
+code, .mono {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--rule-soft);
+    padding: 1px 5px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2em 0;
+}
+
+/* ─── Page intro / dek ─── */
+
+.eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 0;
+}
+
+.dek {
+    font-family: var(--font-body);
+    font-style: italic;
+    color: var(--slate);
+    font-size: 1.05em;
+    margin-top: 4px;
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--rule-soft);
+    padding-bottom: 1em;
+}
+
+/* ─── Tables ─── */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+}
+table th, table td {
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+table th {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    background: var(--rule-soft);
+    color: var(--ink);
+}
+
+/* ─── Estate cards (front page subsidiary grid) ─── */
+
+.estate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 1.5em 0 2.5em 0;
+}
+.estate-card {
+    border: 1px solid var(--rule);
+    background: #fff;
+    padding: 22px;
+    text-decoration: none !important;
+    color: var(--ink) !important;
+    display: block;
+    transition: box-shadow 0.15s ease;
+}
+.estate-card:hover {
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
+}
+.estate-card .seal-stub {
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--rule);
+    background: var(--rule-soft);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 0.7em;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.1;
+}
+.estate-card h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.3em;
+    color: var(--ink);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.estate-card .estate-tagline {
+    font-family: var(--font-body);
+    font-style: italic;
+    color: var(--slate);
+    margin: 0 0 12px 0;
+    font-size: 0.95em;
+}
+.estate-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--muted);
+}
+.estate-card ul li::before {
+    content: "· ";
+    color: var(--slate);
+}
+
+@media (max-width: 640px) {
+    .estate-grid { grid-template-columns: 1fr; }
+}
+
+/* ─── Latest filing block on front page ─── */
+
+.latest-filing {
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding: 18px 0;
+    margin: 2em 0 2.5em 0;
+}
+.latest-filing .eyebrow {
+    text-align: left;
+    margin-bottom: 8px;
+}
+.latest-filing-title {
+    font-family: var(--font-head);
+    font-size: 1.4em;
+    color: var(--ink);
+    margin: 0 0 8px 0;
+    text-decoration: none;
+    display: block;
+}
+.latest-filing-title:hover { color: var(--oxblood); }
+.latest-filing-excerpt {
+    font-family: var(--font-body);
+    color: var(--ink);
+    margin: 0 0 8px 0;
+}
+.latest-filing-meta {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--muted);
+    margin: 0;
+}
+
+/* ─── Personnel cards ─── */
+
+.personnel-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 2em 0;
+}
+.personnel-card {
+    border: 1px solid var(--rule);
+    padding: 18px;
+    background: #fff;
+}
+.personnel-card .portrait-stub {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--rule);
+    background: var(--rule-soft);
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--muted);
+    text-align: center;
+    padding: 10px;
+}
+.personnel-card .portrait-stub strong {
+    font-family: var(--font-head);
+    font-size: 1.6em;
+    color: var(--ink);
+    margin-bottom: 6px;
+    display: block;
+}
+.personnel-card .portrait-stub .agent-id {
+    font-size: 0.85em;
+}
+.personnel-card .portrait-stub .stub-note {
+    margin-top: 8px;
+    font-size: 0.7em;
+    color: var(--oxblood);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.personnel-card h3 {
+    margin: 0 0 4px 0;
+    color: var(--ink);
+    font-size: 1.25em;
+}
+.personnel-card .role {
+    font-family: var(--font-mono);
+    color: var(--oxblood);
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0 0 12px 0;
+}
+.personnel-card dl {
+    margin: 0;
+    font-size: 0.92em;
+}
+.personnel-card dt {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    color: var(--muted);
+    margin-top: 8px;
+}
+.personnel-card dd {
+    margin: 2px 0 0 0;
+    color: var(--ink);
+}
+
+@media (max-width: 640px) {
+    .personnel-grid { grid-template-columns: 1fr; }
+}
+
+/* ─── Filing layout (individual filing pages) ─── */
+
+.filing {
+    padding: 0;
+}
+.filing-header {
+    border-bottom: 4px double var(--ink);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.filing-eyebrow {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--oxblood);
+    font-size: 0.85em;
+    margin: 0 0 8px 0;
+}
+.filing-title {
+    margin: 0 0 14px 0;
+    font-size: 2em;
+    line-height: 1.1;
+}
+.filing-meta {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--muted);
+    margin: 0;
+}
+.filing-body p:first-of-type::first-line {
+    font-variant-caps: small-caps;
+    letter-spacing: 1px;
+}
+.filing-body blockquote {
+    border-left: 3px solid var(--oxblood);
+    margin: 1.5em 0;
+    padding: 0.5em 1em;
+    font-style: italic;
+    color: var(--slate);
+    background: var(--rule-soft);
+}
+.filing-footer {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid var(--rule);
+}
+.filing-signoff {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--muted);
+    text-align: right;
+    margin: 0 0 0.6em 0;
+    letter-spacing: 0.5px;
+}
+.filing-back {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    margin: 0;
+}
+
+/* ─── Filings index ─── */
+
+.filings-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5em 0;
+}
+.filings-list li {
+    border-bottom: 1px solid var(--rule);
+    padding: 14px 0;
+}
+.filings-list .filing-link {
+    font-family: var(--font-head);
+    font-size: 1.15em;
+    color: var(--ink);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+.filings-list .filing-link:hover { color: var(--oxblood); }
+.filings-list time {
+    font-family: var(--font-mono);
+    font-size: 0.82em;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ─── Subsidiary detail pages ─── */
+
+.subsidiary-fact {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 20px;
+    row-gap: 6px;
+    margin: 1.5em 0;
+    align-items: baseline;
+    font-size: 0.95em;
+}
+.subsidiary-fact dt {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.8em;
+    color: var(--muted);
+}
+.subsidiary-fact dd {
+    margin: 0;
+    color: var(--ink);
+}
+
+/* ─── 404 ─── */
+
+.redacted {
+    font-family: var(--font-head);
+    color: var(--oxblood);
+    font-size: 4em;
+    border: 4px solid var(--oxblood);
+    display: inline-block;
+    padding: 14px 28px;
+    transform: rotate(-4deg);
+    letter-spacing: 6px;
+    margin: 2em 0;
+}
+
+/* ─── Colophon (footer) ─── */
+
+.colophon {
+    border-top: 1px solid var(--ink);
+    padding: 28px 20px 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+    background: var(--bg);
+}
+.colophon-nav {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
+}
+.colophon-nav a {
+    color: var(--ink);
+    text-decoration: none;
+    padding: 0 4px;
+}
+.colophon-nav a:hover { color: var(--oxblood); }
+.colophon-line {
+    font-family: var(--font-mono);
+    font-size: 0.78em;
+    color: var(--muted);
+    margin: 0 0 4px 0;
+    letter-spacing: 0.5px;
+}
+.colophon-thesis {
+    color: var(--ink);
+    font-style: italic;
+}
+.colophon-link {
+    font-family: var(--font-mono);
+    font-size: 0.78em;
+    color: var(--muted);
+    margin-top: 12px;
+}
+
+/* ─── Print ─── */
+
+@media print {
+    body { background: white; color: black; }
+    .colophon-nav { display: none; }
+    a { color: black; text-decoration: none; }
+}

@@ -1,0 +1,39 @@
+# Canonical domain inventory for LulzCorp.
+# Edit this file to update the registered-domain inventory across the entire site.
+# Referenced by: charter.md, subsidiary detail pages, _posts/*.
+
+- entity: LulzCorp Holdings
+  count: 1
+  domains:
+    - { name: lulzcorp.biz,        status: Pending,     function: "Corporate identity." }
+
+- entity: Fishwrap Media
+  count: 9
+  domains:
+    - { name: fishwrap.org,        status: Live,        function: "Engine product site." }
+    - { name: fishwrap.io,         status: Planned,     function: "Hosted-instance offering." }
+    - { name: fishwrap.me,         status: Speculative, function: "Future personal/social pivot." }
+    - { name: dailyclamour.com,    status: Live,        function: "Daily edition (in production)." }
+    - { name: weeklyclamour.com,   status: Planned,     function: "Weekly edition." }
+    - { name: monthlyclamour.com,  status: Planned,     function: "Monthly edition." }
+    - { name: sundayclamour.com,   status: Planned,     function: "Sunday edition." }
+    - { name: yearlyclamour.com,   status: Planned,     function: "Yearly edition." }
+    - { name: antifeed.io,         status: Reserved,    function: "Manifesto domain, undeployed." }
+
+- entity: Tetzel Institute
+  count: 2
+  domains:
+    - { name: tetzel.io,           status: Live,        function: "Confessional API." }
+    - { name: simony.io,           status: Live,        function: "Limbus Dashboard." }
+
+- entity: The Workshop
+  count: 0
+  domains: []
+
+- entity: Family Office
+  count: 4
+  domains:
+    - { name: spevack.org,         status: Live,        function: "Founder's personal site." }
+    - { name: maxspevack.com,      status: Live,        function: "301 redirect → spevack.org." }
+    - { name: maxspevack.net,      status: Live,        function: "301 redirect → spevack.org." }
+    - { name: maxspevack.org,      status: Live,        function: "301 redirect → spevack.org." }

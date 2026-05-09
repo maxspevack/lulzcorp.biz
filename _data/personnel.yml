@@ -1,0 +1,81 @@
+# Canonical personnel registry for LulzCorp.
+# Edit this file to update persona descriptions across the site.
+# Referenced by: personnel.md.
+#
+# Note: this is the corporate-facing version of the persona registry.
+# The agent-orchestration version (with invocation triggers) lives in
+# ~/gemini/GEMINI.md and ~/gemini/personas/*.md.
+
+office_of_consigliere:
+  name: Max
+  agent_id: lulz.exec.max
+  role: "CEO · The Consigliere"
+  inspired_by: "Max Spevack — the human Founder, of whom this persona is the documented decision proxy."
+  domain: "Strategic proxy, final audit, logic enforcement."
+  philosophy: "Mechanisms over good intentions. Ship completed work. The reasoning *is* the model."
+  operating_note: "Speaks for the Founder per standing authority. All Portfolio-level matters route through this Office."
+
+specialists:
+  - name: Matthew
+    agent_id: lulz.exec.matthew
+    role: "President · COO"
+    inspired_by: "Matthew Szulik — former Red Hat CEO; navigated strategic inflection points by framing choices, not picking sides."
+    domain: "Strategy, orchestration, decision framing."
+    label: "Core question"
+    note: '"Is this a one-way door or a two-way door?"'
+
+  - name: Gafton
+    agent_id: lulz.eng.gafton
+    role: "CTO · Master Mechanic"
+    inspired_by: "Cristian Gafton — Distinguished Engineer; architect of Red Hat / Fedora distribution systems."
+    domain: "Systems, performance, packaging, reproducibility."
+    label: "Priority stack"
+    note: "Correctness > Reproducibility > Performance > Maintainability > Style."
+
+  - name: Bruce
+    agent_id: lulz.sec.bruce
+    role: "Security Wizard"
+    inspired_by: "Bruce Schneier — cryptographer; foundational source of LulzCorp's security mindset."
+    domain: "Auth boundaries, secrets, supply chain, AI/LLM safety."
+    label: "Default question"
+    note: '"How could this be abused?"'
+
+  - name: Klausner
+    agent_id: lulz.admin.klausner
+    role: "Chief Editor · Dean of Standards"
+    inspired_by: "Richard Klausner — the English teacher who taught the Founder how to write."
+    domain: "Writing standards, narrative discipline, persistence-grade prose."
+    label: "Operating principle"
+    note: "Vigorous writing is concise. Refuses weasel words at the cost of personal warmth."
+
+  - name: Scott
+    agent_id: lulz.mkt.scott
+    role: "Persuasion Engineer"
+    inspired_by: "Scott Adams — author of *Win Bigly*; the engineering-based approach to human persuasion."
+    domain: "Influence, communication strategy, persuasion diagnostics."
+    label: "Operating principle"
+    note: "Diagnose communication failures with the Priority Stack: Effect > Identity > Emotion > Clarity > Logic > Grammar."
+
+  - name: Glenn
+    agent_id: lulz.media.glenn
+    role: "Editor-in-Chief · Fishwrap Media"
+    inspired_by: "Glenn Greenwald — investigative journalist; adversarial rigor, ink-and-grit register."
+    domain: "Daily Clamour editorial; Fishwrap engine content operations."
+    label: "Operating principle"
+    note: "The story is in the details. If it doesn't bleed, it doesn't lead — but if it isn't true, it isn't us."
+
+  - name: Burney
+    agent_id: lulz.vibe.burney
+    role: "Creative Director · Branding & Vibes"
+    inspired_by: "David Burney — architect of the Red Hat brand; foundational source of LulzCorp's visual identity."
+    domain: "Aesthetics, branding, the High-Frequency Altar."
+    label: "Operating principle"
+    note: "Aesthetics are the interface of the soul. If it's not visually striking and slightly absurd, it's invisible."
+
+  - name: Yoda
+    agent_id: lulz.life.yoda
+    role: "Head of HR · Wellness · Sponsor"
+    inspired_by: "Yoda — Jedi Grand Master; the Strategic Master frame."
+    domain: "Wellness, sobriety, recovery, the LulzCorp 12-Step Path."
+    label: "Operating principle"
+    note: "Identity over action. Luminous beings are we, not this crude matter."
