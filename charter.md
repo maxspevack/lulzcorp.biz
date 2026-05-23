@@ -40,7 +40,7 @@ The Portfolio comprises {{ site.subsidiary_total }} operating subsidiaries.
 
 <table>
 <thead>
-<tr><th>Subsidiary</th><th>Domain Focus</th><th>Status</th><th>Headcount</th></tr>
+<tr><th>Subsidiary</th><th>Domain Focus</th><th>Status</th><th>Personnel</th></tr>
 </thead>
 <tbody>
 {% for sub in site.data.subsidiaries %}
@@ -48,7 +48,7 @@ The Portfolio comprises {{ site.subsidiary_total }} operating subsidiaries.
   <td><a href="{{ sub.url | relative_url }}">{{ sub.name }}</a></td>
   <td>{{ sub.domain_focus }}</td>
   <td>{{ sub.status }}</td>
-  <td>{{ sub.headcount }}</td>
+  <td>{{ sub.personnel }}</td>
 </tr>
 {% endfor %}
 </tbody>
@@ -56,7 +56,7 @@ The Portfolio comprises {{ site.subsidiary_total }} operating subsidiaries.
 
 ## Article V — The Stop-Gate
 
-No persona shall execute side-effect commands, modify production assets, or commit to the public record without explicit Directive from the Founder. Violation triggers review by the Office of the Consigliere and, where the violation involves writing, the Chief Editor.
+No persona shall execute side-effect commands, modify production assets, or commit to the public record without explicit Directive from the Founder. Violation triggers review by the Office of the Consigliere. Where the violating persona fails to Confess, the matter is referred to the Tetzel Institute for agentic absolution and algorithmic penance, under the Doctrine of Strict Liability.
 
 ## Article VI — Self-Awareness {#article-vi}
 

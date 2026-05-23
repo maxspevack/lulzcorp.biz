@@ -13,9 +13,6 @@ permalink: /subsidiaries/
 ## [{{ sub.name }}]({{ sub.url | relative_url }})
 
 **Domain focus**: {{ sub.domain_focus }}.
-**Headcount**: {{ sub.headcount }}.
-**Operating status**: {{ sub.status }}.
-**Domain holdings**: {{ sub.domain_count }}.
 
 {{ sub.short_summary }}
 

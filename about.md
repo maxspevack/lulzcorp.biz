@@ -7,9 +7,6 @@ permalink: /about/
 
 <p class="eyebrow">CORPORATE INFORMATION</p>
 <h1>About LulzCorp</h1>
-<p class="dek">Holding company for the Spevack/Gemini ecosystem. Founded {{ site.founding_date_long }}. California LLC, filing pending.</p>
-
-## The Entity
 
 LulzCorp is a small holding company that owns and operates four real digital products under one comedic legal-corporate framing. Two products are functional (Fishwrap Media's engine and flagship; The Workshop's CLI tools), one is satirical-but-pointed (Tetzel Institute's indulgence-as-a-service framework, which makes a real argument about AI hallucination accountability), and one is personal-scale infrastructure (Family Office's site and aesthetic themes).
 
@@ -41,7 +38,8 @@ Reports through to the Founder, who rarely intervenes.
 | Founding date | {{ site.founding_date_long }} |
 | Headquarters | The Portfolio operates remotely from a confidential location in the Coachella Valley. |
 | Investors | None. If you believe you are an investor, you have been misinformed; see Tetzel Institute for absolution. |
-| Customers | None. The products are free. |
+| Revenue | $0. The Portfolio operates without monetization. |
+| Users | Indeterminate. Some products report traffic; others are unmeasured. No customer relationship is offered or maintained. |
 | Press inquiries | Not currently accepted. The Office of the Consigliere will issue no comment. |
 
 ## Forward-Looking Statements

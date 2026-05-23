@@ -10,7 +10,8 @@
   headcount: "1 (Glenn)"
   headcount_short: "1"
   domain_count: 9
-  status: Operational
+  status: "In Continuous Publication"
+  personnel: "Glenn (lead); Burney, Klausner, Gafton (matrix)"
   short_summary: "A Glass-Box news engine and its publication portfolio."
   domain_focus: "News engineering and publication"
   card_items:
@@ -26,7 +27,8 @@
   headcount: "0 (autonomous)"
   headcount_short: "0"
   domain_count: 2
-  status: Operational
+  status: "Receiving Penitents"
+  personnel: "Autonomous; Scott (primary); Bruce and Klausner (advisory)"
   short_summary: "A satirical critique of AI hallucination markets that nonetheless makes a serious argument."
   domain_focus: "Moral accountability for stochastic systems"
   card_items:
@@ -41,7 +43,8 @@
   headcount: "0 (Founder-direct)"
   headcount_short: "0"
   domain_count: 0
-  status: Operational
+  status: "In Regular Use"
+  personnel: "Founder-led; Gafton, Klausner, Bruce (ad-hoc)"
   short_summary: "CLI tools the Founder uses every day. No public domain; distributed via GitHub."
   domain_focus: "Personal-scale tools"
   card_items:
@@ -56,7 +59,8 @@
   headcount: "0 (Founder-direct, Burney advisory)"
   headcount_short: "0"
   domain_count: 4
-  status: Operational
+  status: "Under Stewardship"
+  personnel: "Founder-led; Burney (Stylus, dotted-line)"
   short_summary: "Personal-scale property and aesthetic compliance."
   domain_focus: "Personal infrastructure"
   card_items:
