@@ -16,9 +16,8 @@ Maintain the Founder's public-facing personal property and adjacent aesthetic en
 ## Operating Profile
 
 <dl class="subsidiary-fact">
-  <dt>Headcount</dt><dd>0. Operated Founder-direct, with advisory consultation from Burney on aesthetic standards.</dd>
+  <dt>Direction</dt><dd>Founder-led, with advisory consultation from Burney on aesthetic standards.</dd>
   <dt>Domain holdings</dt><dd>4 (one live property, three live redirects).</dd>
-  <dt>Products</dt><dd>2 — spevack.org, Stylus.</dd>
   <dt>Operating principle</dt><dd>Personal infrastructure should be quiet, durable, and require no maintenance.</dd>
 </dl>
 

@@ -16,9 +16,8 @@ Build a Glass-Box news engine and operate its publication portfolio. Every edito
 ## Operating Profile
 
 <dl class="subsidiary-fact">
-  <dt>Editor-in-Chief</dt><dd>Glenn (<code>lulz.media.glenn</code>) · Inspired by Glenn Greenwald.</dd>
+  <dt>Editor-in-Chief</dt><dd>Glenn (<code>lulz.media.glenn</code>)</dd>
   <dt>Engine</dt><dd><a href="https://fishwrap.org">fishwrap.org</a> · distributed as <code>ghcr.io/maxspevack/fishwrap</code></dd>
-  <dt>Engine version</dt><dd>1.3.3 — <em>Speed &amp; Stability</em></dd>
   <dt>Flagship publication</dt><dd><a href="https://dailyclamour.com">The Daily Clamour</a> · live production · refreshes 04:00 Pacific</dd>
   <dt>Demo editions</dt><dd>The Zero Day (cybersecurity) · The Hallucination (AI research) · The ShowRunner (entertainment) — all served from <code>fishwrap.org/demo/</code></dd>
   <dt>Operating principle</dt><dd>Auditable byline records. Token-bucket rate limiting. Memento-pattern article retention.</dd>
@@ -47,10 +46,6 @@ The Editor (Glenn) has indicated that additional cadences will ship "when feasib
 ## Manifesto Domain
 
 `antifeed.io` is held in reserve for an as-yet-undeployed manifesto property. The domain anchors the subsidiary's editorial position against algorithmic feed mechanics. No deployment timeline has been issued.
-
-## Headcount
-
-One (1). Glenn, Editor-in-Chief, operates the subsidiary autonomously. Editorial standards are reviewed against Klausner (Chief Editor, Portfolio-level) on persistence-grade publications. Aesthetic standards are reviewed against Burney.
 
 ## Status
 

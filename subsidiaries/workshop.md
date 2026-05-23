@@ -16,10 +16,8 @@ Build and ship small, single-purpose CLI tools the Founder uses every day. Produ
 ## Operating Profile
 
 <dl class="subsidiary-fact">
-  <dt>Headcount</dt><dd>0 standing. Specialist consultation as needed (Gafton, Klausner, Bruce).</dd>
   <dt>Direction</dt><dd>Founder-led. Persona-staffed. AI-implemented.</dd>
   <dt>Domain holdings</dt><dd>0. Distribution via GitHub only.</dd>
-  <dt>Products in production</dt><dd>2 — Lazy, Playoffs.</dd>
   <dt>Operating principle</dt><dd>If it's longer than one file, it's a different subsidiary's problem.</dd>
 </dl>
 
