@@ -198,20 +198,12 @@ table th {
 .estate-card:hover {
     box-shadow: 2px 2px 0 rgba(0,0,0,0.08);
 }
-.estate-card .seal-stub {
-    width: 60px;
-    height: 60px;
-    border: 1px solid var(--rule);
-    background: var(--rule-soft);
+.estate-card .seal-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
     margin-bottom: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-mono);
-    font-size: 0.7em;
-    color: var(--muted);
-    text-align: center;
-    line-height: 1.1;
+    display: block;
 }
 .estate-card h3 {
     margin: 0 0 4px 0;
@@ -290,38 +282,13 @@ table th {
     padding: 18px;
     background: #fff;
 }
-.personnel-card .portrait-stub {
+.personnel-card .portrait-img {
     width: 100%;
     aspect-ratio: 1 / 1;
-    border: 1px solid var(--rule);
-    background: var(--rule-soft);
+    object-fit: cover;
     margin-bottom: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-mono);
-    font-size: 0.85em;
-    color: var(--muted);
-    text-align: center;
-    padding: 10px;
-}
-.personnel-card .portrait-stub strong {
-    font-family: var(--font-head);
-    font-size: 1.6em;
-    color: var(--ink);
-    margin-bottom: 6px;
     display: block;
-}
-.personnel-card .portrait-stub .agent-id {
-    font-size: 0.85em;
-}
-.personnel-card .portrait-stub .stub-note {
-    margin-top: 8px;
-    font-size: 0.7em;
-    color: var(--oxblood);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    border: 1px solid var(--rule);
 }
 .personnel-card h3 {
     margin: 0 0 4px 0;

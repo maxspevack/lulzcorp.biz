@@ -17,11 +17,7 @@ The Portfolio is operated by {{ site.personnel_total }} standardized expert pers
 <div class="personnel-grid" style="grid-template-columns: 1fr;">
 
   <div class="personnel-card">
-    <div class="portrait-stub">
-      <strong>{{ p.name }}</strong>
-      <span class="agent-id">{{ p.agent_id }}</span>
-      <span class="stub-note">Portrait pending — AI Studio</span>
-    </div>
+    <img src="{{ '/assets/img/personnel/' | append: p.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ p.name }}" class="portrait-img">
     <h3>{{ p.name }}</h3>
     <p class="role">{{ p.role }}</p>
     <dl>
@@ -39,11 +35,7 @@ The Portfolio is operated by {{ site.personnel_total }} standardized expert pers
 <div class="personnel-grid">
 {% for s in site.data.personnel.specialists %}
   <div class="personnel-card">
-    <div class="portrait-stub">
-      <strong>{{ s.name }}</strong>
-      <span class="agent-id">{{ s.agent_id }}</span>
-      <span class="stub-note">Portrait pending — AI Studio</span>
-    </div>
+    <img src="{{ '/assets/img/personnel/' | append: s.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ s.name }}" class="portrait-img">
     <h3>{{ s.name }}</h3>
     <p class="role">{{ s.role }}</p>
     <dl>

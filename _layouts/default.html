@@ -20,7 +20,14 @@
     <meta property="og:title" content="{{ page_title }}">
     <meta property="og:description" content="{{ page_description }}">
     <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:image" content="{{ '/assets/img/og-image.jpg' | absolute_url }}?v={{ cb }}">
+    <meta property="og:image:alt" content="LulzCorp — Considered harmful.">
     <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:image" content="{{ '/assets/img/og-image.jpg' | absolute_url }}?v={{ cb }}">
 
     <meta name="theme-color" content="#fdfbf7">
 
@@ -31,6 +38,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/lulzcorp.css' | relative_url }}?v={{ cb }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Favicons (cache-busted) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v={{ cb }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v={{ cb }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v={{ cb }}">
+    <link rel="shortcut icon" href="/favicon.ico?v={{ cb }}">
   </head>
   <body>
     <header class="masthead">

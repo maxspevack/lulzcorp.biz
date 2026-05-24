@@ -25,7 +25,7 @@ LulzCorp holds and operates {{ site.subsidiary_total }} subsidiaries.
 <div class="estate-grid">
 {% for sub in site.data.subsidiaries %}
   <a href="{{ sub.url | relative_url }}" class="estate-card">
-    <div class="seal-stub">{{ sub.card_label_html }}</div>
+    <img src="{{ '/assets/img/seals/' | append: sub.key | append: '.png' | relative_url }}" alt="{{ sub.name }} wax seal" class="seal-img">
     <h3>{{ sub.name }}</h3>
     <p class="estate-tagline">{{ sub.tagline }}</p>
     <ul>
