@@ -329,6 +329,19 @@ table th {
 .filing {
     padding: 0;
 }
+.filing-letterhead {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--rule);
+}
+.filing-letterhead img {
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    opacity: 0.92;
+}
 .filing-header {
     border-bottom: 4px double var(--ink);
     padding-bottom: 20px;
