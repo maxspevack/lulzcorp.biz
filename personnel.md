@@ -17,7 +17,7 @@ The Portfolio is operated by {{ site.personnel_total }} standardized expert pers
 <div class="personnel-grid" style="grid-template-columns: 1fr;">
 
   <div class="personnel-card">
-    <img src="{{ '/assets/img/personnel/' | append: p.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ p.name }}" class="portrait-img">
+    <img src="{{ '/assets/img/personnel/' | append: p.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ p.name }}" class="portrait-img" width="800" height="800" loading="eager">
     <h3>{{ p.name }}</h3>
     <p class="role">{{ p.role }}</p>
     <dl>
@@ -35,11 +35,11 @@ The Portfolio is operated by {{ site.personnel_total }} standardized expert pers
 <div class="personnel-grid">
 {% for s in site.data.personnel.specialists %}
   <div class="personnel-card">
-    <img src="{{ '/assets/img/personnel/' | append: s.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ s.name }}" class="portrait-img">
+    <img src="{{ '/assets/img/personnel/' | append: s.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ s.name }}" class="portrait-img" width="800" height="800" loading="lazy">
     <h3>{{ s.name }}</h3>
     <p class="role">{{ s.role }}</p>
     <dl>
-      <dt>Inspired by</dt><dd>{{ s.inspired_by | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+      <dt>Inspired by</dt><dd>{{ s.inspired_by | replace: '*', '' }}</dd>
       <dt>Domain</dt><dd>{{ s.domain }}</dd>
       <dt>{{ s.label }}</dt><dd>{{ s.note }}</dd>
     </dl>

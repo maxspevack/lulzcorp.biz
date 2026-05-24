@@ -450,6 +450,25 @@ table th {
 
 /* ─── 404 ─── */
 
+.notice-page {
+    text-align: center;
+    padding: 40px 20px;
+}
+.notice-headline {
+    border: none;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.notice-body {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.notice-back {
+    margin-top: 2em;
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+}
+
 .redacted {
     font-family: var(--font-head);
     color: var(--oxblood);
