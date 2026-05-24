@@ -14,8 +14,8 @@ office_of_consigliere:
   domain: "Strategic proxy, final audit, logic enforcement."
   philosophy: "Mechanisms over good intentions. Ship completed work. The reasoning *is* the model."
   operating_note: "Speaks for the Founder per standing authority. All Portfolio-level matters route through this Office."
-  # object-position-y for portrait crop; calculated to land eyes at ~38% of visible area
-  object_position: 51
+  # object-position-y for portrait crop; calculated to align eyes across the gallery (target: ~26% of visible)
+  object_position: 7
 
 specialists:
   - name: Matthew
@@ -25,7 +25,7 @@ specialists:
     domain: "Strategy, orchestration, decision framing."
     label: "Core question"
     note: '"Is this a one-way door or a two-way door?"'
-    object_position: 0
+    object_position: 0  # clamped at top — head composed highest in source
 
   - name: Gafton
     agent_id: lulz.eng.gafton
@@ -34,7 +34,7 @@ specialists:
     domain: "Systems, performance, packaging, reproducibility."
     label: "Priority stack"
     note: "Correctness > Reproducibility > Performance > Maintainability > Style."
-    object_position: 58
+    object_position: 80
 
   - name: Bruce
     agent_id: lulz.eng.bruce
@@ -43,7 +43,7 @@ specialists:
     domain: "Auth boundaries, secrets, supply chain, AI/LLM safety."
     label: "Default question"
     note: '"How could this be abused?"'
-    object_position: 18
+    object_position: 80
 
   - name: Klausner
     agent_id: lulz.admin.klausner
@@ -52,7 +52,7 @@ specialists:
     domain: "Writing standards, narrative discipline, persistence-grade prose."
     label: "Operating principle"
     note: "Vigorous writing is concise. Refuses weasel words at the cost of personal warmth."
-    object_position: 58
+    object_position: 100  # clamped at bottom — head composed lowest in source
 
   - name: Scott
     agent_id: lulz.admin.scott
@@ -61,7 +61,7 @@ specialists:
     domain: "Influence, communication strategy, persuasion diagnostics."
     label: "Operating principle"
     note: "Diagnose communication failures with the Priority Stack: Effect > Identity > Emotion > Clarity > Logic > Grammar."
-    object_position: 5
+    object_position: 33
 
   - name: Glenn
     agent_id: lulz.media.glenn
@@ -70,7 +70,7 @@ specialists:
     domain: "Daily Clamour editorial; Fishwrap engine content operations."
     label: "Operating principle"
     note: "The story is in the details. If it doesn't bleed, it doesn't lead — but if it isn't true, it isn't us."
-    object_position: 0
+    object_position: 40
 
   - name: Burney
     agent_id: lulz.mkt.burney
@@ -79,7 +79,7 @@ specialists:
     domain: "Aesthetics, branding, the High-Frequency Altar."
     label: "Operating principle"
     note: "Aesthetics are the interface of the soul. If it's not visually striking and slightly absurd, it's invisible."
-    object_position: 38
+    object_position: 93
 
   - name: Yoda
     agent_id: lulz.hr.yoda
@@ -89,3 +89,4 @@ specialists:
     label: "Operating principle"
     note: "Identity over action. Luminous beings are we, not this crude matter."
     object_position: 50
+    aspect_override: "1 / 1"  # full image visible; no vertical cropping so the notice card text reads
