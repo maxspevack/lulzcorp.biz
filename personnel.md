@@ -17,7 +17,7 @@ The Portfolio is operated by {{ site.personnel_total }} standardized expert pers
 <div class="personnel-grid" style="grid-template-columns: 1fr;">
 
   <div class="personnel-card">
-    <img src="{{ '/assets/img/personnel/' | append: p.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ p.name }}" class="portrait-img" width="800" height="800" loading="eager">
+    <img src="{{ '/assets/img/personnel/' | append: p.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ p.name }}" class="portrait-img" width="800" height="800" loading="eager" style="object-position: center {{ p.object_position | default: 50 }}%">
     <h3>{{ p.name }}</h3>
     <p class="role">{{ p.role }}</p>
     <dl>
@@ -35,7 +35,7 @@ The Portfolio is operated by {{ site.personnel_total }} standardized expert pers
 <div class="personnel-grid">
 {% for s in site.data.personnel.specialists %}
   <div class="personnel-card">
-    <img src="{{ '/assets/img/personnel/' | append: s.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ s.name }}" class="portrait-img" width="800" height="800" loading="lazy">
+    <img src="{{ '/assets/img/personnel/' | append: s.name | downcase | append: '.jpg' | relative_url }}" alt="Art Deco portrait of {{ s.name }}" class="portrait-img" width="800" height="800" loading="lazy" style="object-position: center {{ s.object_position | default: 50 }}%">
     <h3>{{ s.name }}</h3>
     <p class="role">{{ s.role }}</p>
     <dl>
