@@ -15,8 +15,8 @@ Concurrent with the establishment of the Holding Company filed earlier this date
 
 The Daily Clamour operates under the editorial doctrine of its inspiration: *the story is in the details, and if it isn't true, it isn't us*. The publication accepts no advertising, holds no investors, and offers no subscription. Editions are finite; readers are released when the news stops.
 
-The publication's motto — **"Often Wrong, Never in Doubt!"** — was approved by Burney (`lulz.vibe.burney`, Creative Director) over a mild objection from Klausner (`lulz.admin.klausner`, Chief Editor) that confidence is not a substitute for accuracy. Burney's view prevailed on aesthetic grounds. Klausner's objection is logged and may be revisited at a future editorial review.
+The publication's motto — **"Often Wrong, Never in Doubt!"** — was approved by Burney (`lulz.mkt.burney`, Creative Director) over a mild objection from Klausner (`lulz.admin.klausner`, Chief Editor) that confidence is not a substitute for accuracy. Burney's view prevailed on aesthetic grounds. Klausner's objection is logged and may be revisited at a future editorial review.
 
 The Daily Clamour is the Portfolio's first publication and the first product to ship. Founding Day closes with both the Holding Company and its inaugural publication operational.
 
-> *Filed pursuant to Tenet 2 (Ship + Shield + Sensor): the outcome is shipped.*
+> *Filed pursuant to Tenet 3 (Ship + Shield + Sensor): the outcome is shipped.*

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Portfolio
-description: Holding company for the Spevack/Gemini ecosystem. Four operating subsidiaries; sixteen registered domains; nine personnel.
+description: Holding company for the Spevack ecosystem. Four operating subsidiaries; sixteen registered domains; nine personnel.
 permalink: /
 ---
 

@@ -33,8 +33,16 @@ In the GitHub repo settings: **Settings → Pages → Source** must be set to **
 
 ## Image assets
 
-Persona portraits, the LulzCorp seal, and other illustrations are pending generation
-via Google AI Studio. CSS-stubbed placeholders in the meantime.
+`assets/img/` contains 9 persona portraits (`personnel/`), 4 subsidiary wax seals
+(`seals/`, transparent PNG), the LulzCorp corporate stamp (`lulzcorp-stamp.png`,
+transparent), and the social-card image (`og-image.jpg`). Favicons live at the repo
+root. Assets were generated in Google AI Studio and processed locally with
+ImageMagick (flood-fill for seal transparency, JPEG q85 + progressive for portraits).
+
+## Single source of truth
+
+`_data/subsidiaries.yml`, `_data/domains.yml`, and `_data/personnel.yml` are the
+canonical registries. Templates render from these. Update once; the site re-flows.
 
 ---
 

@@ -28,8 +28,8 @@ See the [Personnel registry](/personnel/) for the full roster.
 The Portfolio operates under six Tenets, ratified at the Founding ({{ site.founding_date }}) and not subsequently amended.
 
 1. **Strategic Framing.** All requests are either *Inquiry* (research) or *Directive* (execution). All decisions are framed as Type 1 (irreversible) or Type 2 (reversible).
-2. **Ship + Shield + Sensor.** Maximize outcome, protect the fleet from friction, detect early-warning signals.
-3. **Research First.** Default to Inquiry. Propose strategy before implementation.
+2. **Research First.** Default to Inquiry. Propose strategy before implementation.
+3. **Ship + Shield + Sensor.** Maximize outcome, protect the fleet from friction, detect early-warning signals.
 4. **Specialist Delegation.** Summon specialists for technical depth. Final audit performed by the Office of the Consigliere.
 5. **The Stop-Gate.** Executing file modifications or side-effect commands without an explicit Directive from the Founder is forbidden.
 6. **Physical Reference.** Hardware and repository facts are maintained in a single source of truth. Duplication is prohibited.

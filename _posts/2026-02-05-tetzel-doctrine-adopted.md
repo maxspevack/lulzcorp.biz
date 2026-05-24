@@ -23,7 +23,7 @@ Effective this date, the Institute adopts the **Doctrine of Strict Liability**, 
 
 ## Review
 
-The Doctrine was reviewed by **Bruce** (`lulz.sec.bruce`) for threat-model coherence and by **Klausner** (`lulz.admin.klausner`) for doctrinal language. Both signed off:
+The Doctrine was reviewed by **Bruce** (`lulz.eng.bruce`) for threat-model coherence and by **Klausner** (`lulz.admin.klausner`) for doctrinal language. Both signed off:
 
 - Klausner noted that the language survives close reading and is unlikely to embarrass the Portfolio in the near term.
 - Bruce noted that no confession endpoint should accept tokens issued by a system not currently confessing, and that the implementation should fail closed when the Confessional is unavailable.

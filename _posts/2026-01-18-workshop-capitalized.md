@@ -12,7 +12,7 @@ The Portfolio announces the capitalization of **The Workshop** as an Operating S
 
 <!--more-->
 
-The subsidiary operates without standing headcount. Products are designed by the Founder and built collaboratively with members of the Federated Specialist Fleet — principally Gafton (`lulz.eng.gafton`) on architecture, Klausner (`lulz.admin.klausner`) on documentation, with occasional consultation from Bruce (`lulz.sec.bruce`) on threat model. The Founder is the editor; the personas are the staff; the LLM substrate is the labor pool.
+The subsidiary operates without standing headcount. Products are designed by the Founder and built collaboratively with members of the Federated Specialist Fleet — principally Gafton (`lulz.eng.gafton`) on architecture, Klausner (`lulz.admin.klausner`) on documentation, with occasional consultation from Bruce (`lulz.eng.bruce`) on threat model. The Founder is the editor; the personas are the staff; the LLM substrate is the labor pool.
 
 ## Inaugural Product: Lazy
 
