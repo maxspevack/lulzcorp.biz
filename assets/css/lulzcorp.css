@@ -329,13 +329,13 @@ table th {
 .filing {
     padding: 0;
 }
-.filing-letterhead {
+.filing-stamp {
     text-align: center;
-    margin-bottom: 24px;
-    padding-bottom: 18px;
-    border-bottom: 1px solid var(--rule);
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
 }
-.filing-letterhead img {
+.filing-stamp img {
     max-width: 360px;
     width: 100%;
     height: auto;

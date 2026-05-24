@@ -17,6 +17,12 @@ subsidiary_total: 4
 markdown: kramdown
 permalink: /filings/:year/:month/:day/:title/
 
+# Repo-level files that should not be published to the site
+exclude:
+  - README.md
+  - LICENSE
+  - .github
+
 defaults:
   - scope:
       path: ""

@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-{%- assign cb = site.time | date: '%s' -%}
 <article class="filing">
-  <div class="filing-letterhead">
-    <img src="{{ '/assets/img/lulzcorp-stamp.png' | relative_url }}?v={{ cb }}" alt="LulzCorp — Considered harmful." width="720" height="238" loading="eager" />
-  </div>
-
   <header class="filing-header">
     <p class="filing-eyebrow">CORPORATE FILING</p>
     <h1 class="filing-title">{{ page.title }}</h1>
@@ -19,6 +14,10 @@ layout: default
 
   <div class="filing-body">
     {{ content }}
+  </div>
+
+  <div class="filing-stamp">
+    <img src="{{ '/assets/img/lulzcorp-stamp.png' | relative_url }}" alt="LulzCorp — Considered harmful." width="720" height="238" loading="lazy" />
   </div>
 
   <footer class="filing-footer">
