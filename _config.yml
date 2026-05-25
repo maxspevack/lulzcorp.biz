@@ -17,6 +17,10 @@ subsidiary_total: 4
 markdown: kramdown
 permalink: /filings/:year/:month/:day/:title/
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
 # Repo-level files that should not be published to the site
 exclude:
   - README.md
